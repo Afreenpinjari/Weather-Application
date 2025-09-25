@@ -1,0 +1,16 @@
+.InfoBox {
+  text-align: center;
+  /* background-color: red; */
+}
+
+.cardContainer {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 24px; /* thoda bada chhota karna ho toh */
+  margin-left: 5px; /* thoda space dena ho toh */
+}
+
