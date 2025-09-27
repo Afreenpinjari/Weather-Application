@@ -10,9 +10,9 @@ export default function SearchBox({ updateInfo }) {
   const API_URL = import.meta.env.VITE_API_URL;
   const API_KEY = import.meta.env.VITE_API_KEY;
 
-  // 🔍 Debugging logs
-  console.log("API_URL:", API_URL);
-  console.log("API_KEY:", API_KEY);
+  
+  // console.log("API_URL:", API_URL);
+  // console.log("API_KEY:", API_KEY);
 
   let getWeatherInfo = async () => {
     let respond = await fetch(
