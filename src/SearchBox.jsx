@@ -1,6 +1,6 @@
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
-import "./search.css";
+import "./Search.css";
 import { useState } from "react";
 
 export default function SearchBox({ updateInfo }) {
